@@ -21,14 +21,14 @@ public class AddressBook {
             if (fName.equals(person.getFirstName())) {
                 System.out.println("The entered person is already exist. Enter new name");
             } else {
-                System.out.println("Enter the contact details of person ");
+                System.out.println("Enter the contact  details of person ");
                 writeContact();
                 System.out.println("contact added Successfully");
             }
         }
     }
 
-    public void writeContact() {
+    public void writeContact() { 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter First Name : ");
         String firstName = scanner.next();
